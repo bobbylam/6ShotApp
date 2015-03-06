@@ -153,8 +153,10 @@ a:focus {
 .navbar-custom .nav li.active {
     outline: 0;
     /*NAVBAR HOVER COLOR*/
-    background-color: #fff;
-    color: #111;
+    /*background-color: #fff;
+    color: #111;*/
+    color: #fff;
+    background-color: #111;
 }
 
 .navbar-toggle {
@@ -181,8 +183,10 @@ a:focus {
     .navbar-brand:hover,
     .navbar-brand:focus {
         outline: 0;
-        color: #111;
-        background-color: #fff;
+        /*color: #111;
+        background-color: #fff;*/
+        color: #fff;
+        background-color: #111;
     }
     .navbar-custom a {
         color: #fff;
@@ -192,6 +196,11 @@ a:focus {
     .top-nav-collapse {
         padding: 0;
         background-color: #111;
+    }
+    .top-nav-collapse.navbar-custom .nav li a:hover{
+        outline: 0;
+        color: #111;
+        background-color: #fff;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -534,9 +543,9 @@ a:focus{
     text-transform: uppercase;
     font-family: '412', Roboto Condensed,"Helvetica Neue",Helvetica,Arial,sans-serif;
     /*font-weight: 400;*/
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .btn-default {
