@@ -38,8 +38,9 @@ h1.tagline{
     /* VIEWS FROM THE 6 : */
     /*font-size: 50px;*/
     color: #FFFFFF;
+    font-size: 26px;
     letter-spacing: 5px;
-    line-height: 50px;
+    line-height: 1;
     margin-bottom: 0px;
 }
 
@@ -56,20 +57,20 @@ p {
 
 p.copy{
     /* 6 Shot is a minimal : */
-    font-size: 14px;
+    font-size: 10px;
     font-weight: normal;
     text-transform: none;
     letter-spacing: 0px;
     color: #FFFFFF;
-    line-height: 21px;
+    line-height: 1.5;
 }
 
 #VIunderlinesectiondivider{
-    width: 46px;
-    height: 7px;
+    width: 28px;
+    height: 4px;
     background: #FFF;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #about .container{
@@ -93,6 +94,20 @@ img.img-responsive.center-block{
     h1.tagline{
     /* VIEWS FROM THE 6 : */
     font-size: 50px;
+    }
+
+    p.copy{
+    /* 6 Shot is a minimal : */
+    font-size: 14px;
+    line-height: 21px;
+    }
+
+    #VIunderlinesectiondivider{
+        width: 46px;
+        height: 7px;
+        background: #FFF;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     img.img-responsive.center-block{
