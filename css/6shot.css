@@ -77,29 +77,31 @@ p.copy{
     padding-left: 0px;
 }
 
-.hover {
--webkit-user-select: none;
--webkit-touch-callout: none;        
-}
-
-.redacted{
-    background-color: #fff;
-}
-
-.about:hover .redacted,
-.about:active .redacted{
-    background-color: transparent;
-}
-
-/*#about .hover_effect .redacted{
-    background-color: transparent;
-}*/
 
 img.img-responsive.center-block{
     max-width: 55%;
     text-align: center;
     /*position: absolute;*/
     /*bottom: 0px;*/
+}
+
+.btn-rect {
+    background-color: #fff;
+    border: 2px solid #111;
+    border-radius: 0px;
+    font-family: "412","Helvetica Neue",Helvetica,Roboto Condensed,Arial,sans-serif;
+    font-size: 8px;
+    color: #111;
+    letter-spacing: 2px;
+}
+.btn-rect:hover,
+.btn-rect:focus {
+    /*border: 2px solid rgb(255,238,0);*/
+    /*border-radius: 2px;*/
+    background-color: #111;
+    color: #fff;
+    opacity: 1;
+    outline: 0;
 }
 
 /*DESKTOP ONLY*/
@@ -136,6 +138,15 @@ img.img-responsive.center-block{
     bottom: 0px;
     }
 
+    .redacted{
+        background-color: #fff;
+    }
+
+    .about:hover .redacted,
+    .about:active .redacted{
+        background-color: transparent;
+    }
+
     .redactedrect{
     width: 398px;
     height: 40px;
@@ -146,7 +157,11 @@ img.img-responsive.center-block{
 
     #about:hover .redactedrect{
         background-color: transparent;
-        /*visibility: hidden;*/
+    }
+
+    .btn-rect {
+        font-size: 11px;
+        letter-spacing: 3px;
     }
 }
 
@@ -502,7 +517,8 @@ a:focus{
 }
 
 .content-section {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
+    padding-top: 250px;
     height:100%;
 }
 
@@ -638,25 +654,6 @@ a:focus{
     background-color: rgb(255,238,0);
 }
 
-.btn-rect {
-    background-color: #fff;
-    border: 2px solid #111;
-    border-radius: 0px;
-    font-family: "412","Helvetica Neue",Helvetica,Roboto Condensed,Arial,sans-serif;
-    font-size: 11px;
-    color: #111;
-    letter-spacing: 3px;
-}
-.btn-rect:hover,
-.btn-rect:focus {
-    /*border: 2px solid rgb(255,238,0);*/
-    /*border-radius: 2px;*/
-    background-color: #111;
-    color: #fff;
-    opacity: 1;
-    outline: 0;
-}
-
 .btn-huge {
     padding: 25px;
     font-size: 26px;
@@ -750,143 +747,6 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-/*VIDEO STUFF*/
-.header-unit {
-  height: 150px;
-  border: 2px solid #000;
-  border-right:none;
-  border-left: none;
-  position: left;
-  padding: 0px;
-}
-
-#video-container{ 
-    position: fixed; 
-    bottom: 0px; 
-    right: 0px; 
-    min-width: 100%; 
-    min-height: 100%; 
-    width: auto; 
-    height: auto; 
-    z-index: -1; 
-    overflow: hidden;
-}
-
-@media(max-width:767px) {
-    #video-container{ 
-        background: #212121;
-        position: fixed;
-        top:0%;
-        left:0%;
-        width:100%;
-        overflow: hidden;
-        min-height: inherit;
-        padding-top: 50px;
-        opacity: 0;
-    }
-}
-
-video {
-    /*position:absolute;*/
-    z-index:0;
-    /*opacity: 0.7;*/
-}
-video.fillWidth {
-    /*width: 100%;*/
-}
-
-.carousel,
-.item,
-.active {
-    height:100%;
-}
-
-.carousel-indicators li{
-    border: 1px solid #212121;
-    border-color: #212121;
-    color:#212121;
-}
-
-.carousel-indicators .active{
-    background-color:#212121;
-}
-
-.carousel-control {
-        visibility: hidden;
-        text-shadow: none;
-    }
-
-
-/*@media(max-width:767px) {
-    .carousel-indicators {
-        width: 80%;
-        margin-left: -40%;
-    }
-    .carousel-indicators li{
-        border: 1px solid #212121;
-        border-color: #212121;
-        color:#212121;
-        width:13px;
-        height:13px;
-        margin:6px;
-    }  
-    .carousel-indicators .active{
-        background-color:#212121;
-        width:13px;
-        height:13px;
-        margin:6px;
-    }
-}*/
-
-.carousel-control.right {
-    background: none;
-}
-
-.carousel-control.left {
-    background: none;
-}
-
-.carousel-inner {
-    height:100%;
-}
-
-@media(max-width:767px) {
-    .carousel-indicators {
-        visibility: hidden;
-    }
-    .carousel-control,
-    .carousel-control:active{
-        visibility: visible;
-        top:auto;
-        bottom: 3%;
-        font-size: 30px;
-        color: #212121;
-        opacity: 1;
-        background-color: #212121;
-        width: 12%;
-    }
-    .carousel-control.left {
-    background: none;
-    background-color: #212121;
-    color: #ffeb03;
-    left: 36%;
-    }
-    .carousel-control.right {
-    background: none;
-    background-color: #212121;
-    color: #ffeb03;
-    right: 36%;
-    }
-
-    .carousel-control:hover,
-    .carousel-control:focus{
-        background: none;
-        background-color: #212121;
-        color: #ffeb03;
-        opacity: 1;
-    }
 }
 
 .fill {
