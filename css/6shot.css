@@ -77,12 +77,17 @@ p.copy{
     padding-left: 0px;
 }
 
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
+}
+
 .redacted{
     background-color: #fff;
 }
 
 #about:hover .redacted,
-#about:active .redacted{
+#about.hover_effect .redacted{
     background-color: transparent;
     /*visibility: hidden;*/
 }

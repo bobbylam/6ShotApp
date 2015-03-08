@@ -7,6 +7,14 @@ $(window).scroll(function() {
     }
 });
 
+//enable redacted text removal on touch
+$(document).ready(function() {
+    $('.hover').bind('touchstart touchend', function(a) {
+        a.preventDefault();
+        $(this).toggleClass('hover_effect');
+    });
+});
+
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
