@@ -82,7 +82,6 @@ p.copy{
 }
 
 #about:hover .redacted,
-#about:focus .redacted,
 #about:active .redacted{
     background-color: transparent;
     /*visibility: hidden;*/
