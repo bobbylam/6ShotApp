@@ -9,7 +9,7 @@ $(window).scroll(function() {
 
 //enable redacted text removal on touch
 $(document).ready(function() {
-    $('.hover').bind('touchstart touchend', function(a) {
+    $('.hover').bind('touchstart', function(a) {
         a.preventDefault();
         $(this).toggleClass('hover_effect');
     });
