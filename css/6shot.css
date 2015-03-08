@@ -86,11 +86,7 @@ p.copy{
     background-color: #fff;
 }
 
-.about:hover .redacted{
-    background-color: transparent;
-}
-
-,
+.about:hover .redacted,
 .about:active .redacted{
     background-color: transparent;
 }

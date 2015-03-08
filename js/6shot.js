@@ -7,13 +7,13 @@ $(window).scroll(function() {
     }
 });
 
-//enable redacted text removal on touch
-$(document).ready(function() {
-    $('.hover').bind('touchstart', function(a) {
-        a.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });
-});
+// //enable redacted text removal on touch
+// $(document).ready(function() {
+//     $('.hover').bind('touchstart', function(a) {
+//         a.preventDefault();
+//         $(this).toggleClass('hover_effect');
+//     });
+// });
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
