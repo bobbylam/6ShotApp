@@ -86,12 +86,15 @@ p.copy{
     background-color: #fff;
 }
 
-#about:hover .redacted,
-#about.hover_effect .redacted{
+.about:hover .redacted,
+.about:active .redacted{
     background-color: transparent;
     /*visibility: hidden;*/
 }
 
+/*#about .hover_effect .redacted{
+    background-color: transparent;
+}*/
 
 img.img-responsive.center-block{
     max-width: 55%;
