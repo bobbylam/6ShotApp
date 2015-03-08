@@ -77,6 +77,18 @@ p.copy{
     padding-left: 0px;
 }
 
+.redacted{
+    background-color: #fff;
+}
+
+#about:hover .redacted,
+#about:focus .redacted,
+#about:active .redacted,{
+    background-color: transparent;
+    /*visibility: hidden;*/
+}
+
+
 img.img-responsive.center-block{
     max-width: 55%;
     text-align: center;
@@ -84,6 +96,7 @@ img.img-responsive.center-block{
     /*bottom: 0px;*/
 }
 
+/*DESKTOP ONLY*/
 @media(min-width:767px) {
     p {
         margin: 0 0 20px;
@@ -115,7 +128,20 @@ img.img-responsive.center-block{
     text-align: center;
     /*position: absolute;*/
     bottom: 0px;
-}
+    }
+
+    .redactedrect{
+    width: 398px;
+    height: 40px;
+    background: #FFF;
+    margin: 5px 54px;  
+    position: absolute;  
+    }
+
+    #about:hover .redactedrect{
+        background-color: transparent;
+        /*visibility: hidden;*/
+    }
 }
 
 a {
