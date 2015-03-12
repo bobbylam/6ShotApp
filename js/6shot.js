@@ -16,23 +16,23 @@ $(window).scroll(function() {
 // });
 
 //jQuery to change image
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 70 && $(".navbar").offset().top <= 140) {
-        $("#iPhone").attr("src", "img/2.png");
-    }
-    else if ($(".navbar").offset().top > 140 && $(".navbar").offset().top <= 210)  {
-        $("#iPhone").attr("src", "img/3.png");
-    }
-    else if ($(".navbar").offset().top > 210 && $(".navbar").offset().top <= 280)  {
-        $("#iPhone").attr("src", "img/4.png");
-    }
-    else if ($(".navbar").offset().top > 280)  {
-        $("#iPhone").attr("src", "img/5.png");
-    }
-    else {
-        $("#iPhone").attr("src", "img/1.png");
-    }
-});
+// $(window).scroll(function() {
+//     if ($(".navbar").offset().top > 70 && $(".navbar").offset().top <= 140) {
+//         $("#iPhone").attr("src", "img/2.png");
+//     }
+//     else if ($(".navbar").offset().top > 140 && $(".navbar").offset().top <= 210)  {
+//         $("#iPhone").attr("src", "img/3.png");
+//     }
+//     else if ($(".navbar").offset().top > 210 && $(".navbar").offset().top <= 280)  {
+//         $("#iPhone").attr("src", "img/4.png");
+//     }
+//     else if ($(".navbar").offset().top > 280)  {
+//         $("#iPhone").attr("src", "img/5.png");
+//     }
+//     else {
+//         $("#iPhone").attr("src", "img/1.png");
+//     }
+// });
 
 // $('#iPhone').on('click',function(){
 //     $("#iPhone").attr("src", "img/2.png");
