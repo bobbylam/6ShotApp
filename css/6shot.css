@@ -65,6 +65,11 @@ p.copy{
     line-height: 1.5;
 }
 
+.fa {
+  /*font-size: 14px;*/
+  letter-spacing: 0px;
+}
+
 #VIunderlinesectiondivider{
     width: 28px;
     height: 4px;
@@ -151,8 +156,8 @@ img.img-responsive.center-block{
     width: 398px;
     height: 40px;
     background: #FFF;
-    margin: 5px 54px;  
-    position: absolute;  
+    margin: 5px 54px;
+    position: absolute;
     }
 
     #about:hover .redactedrect{
@@ -298,8 +303,8 @@ a:focus {
     }
 }
 
-#wrap { 
-    position: relative;  
+#wrap {
+    position: relative;
 }
 
 .intro {
@@ -482,7 +487,7 @@ a:focus{
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -499,7 +504,7 @@ a:focus{
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -671,56 +676,56 @@ a:focus{
 
 @font-face{
     font-family:'412';
-    src:url('../fonts/412.ttf') format("truetype"); 
+    src:url('../fonts/412.ttf') format("truetype");
     font-weight:normal;
     font-style:normal
     }
 
 @font-face{
     font-family:'13r';
-    src:url('../fonts/13r.ttf') format("truetype"); 
+    src:url('../fonts/13r.ttf') format("truetype");
     font-weight:normal;
     font-style:normal
     }
 
 @font-face{
     font-family:'3m';
-    src:url('../fonts/3m.otf') format("opentype"); 
+    src:url('../fonts/3m.otf') format("opentype");
     font-weight:normal;
     font-style:normal
     }
 
 @font-face{
     font-family:'3l';
-    src:url('../fonts/3l.otf') format("opentype"); 
+    src:url('../fonts/3l.otf') format("opentype");
     font-weight:lighter;
     font-style:normal
     }
 
 @font-face{
     font-family:'7l';
-    src:url('../fonts/7l.ttf') format("truetype"); 
+    src:url('../fonts/7l.ttf') format("truetype");
     font-weight:normal;
     font-style:normal
     }
 
 @font-face{
     font-family:'1614l';
-    src:url('../fonts/1614l.ttf') format("truetype"); 
+    src:url('../fonts/1614l.ttf') format("truetype");
     font-weight:normal;
     font-style:normal
     }
 
 @font-face{
     font-family:'814';
-    src:url('../fonts/814.ttc') format("truetype"); 
+    src:url('../fonts/814.ttc') format("truetype");
     font-weight:normal;
     font-style:normal
     }
 
 @font-face{
     font-family:'127';
-    src:url('../fonts/127.otf') format("opentype"); 
+    src:url('../fonts/127.otf') format("opentype");
     font-weight:normal;
     font-style:normal
     }
