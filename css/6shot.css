@@ -764,8 +764,22 @@ body {
 .footer {
     padding: 7px 0;
     height: auto;
-    color: #212121;
+    background-color: #111;
     font-size: 10px;
 }
+
+.footer a{
+    color:#fff;
+    font-size:14px;
+}
+
+
+
+@media(min-width:767px) {
+    .footer {
+        display:none;
+    }
+}
+
 
 /*STARTED FROM THE BOTTOM NOW WE HERE. If you started from the top like a normal person, that's okay too :)*/
