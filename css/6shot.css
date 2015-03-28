@@ -36,7 +36,6 @@ h1 {
 
 h1.tagline{
     /* VIEWS FROM THE 6 : */
-    /*font-size: 50px;*/
     color: #FFFFFF;
     font-size: 26px;
     letter-spacing: 5px;
@@ -101,8 +100,6 @@ img.img-responsive.center-block{
 }
 .btn-rect:hover,
 .btn-rect:focus {
-    /*border: 2px solid rgb(255,238,0);*/
-    /*border-radius: 2px;*/
     background-color: #111;
     color: #fff;
     opacity: 1;
@@ -114,7 +111,6 @@ img.img-responsive.center-block{
     p {
         margin: 0 0 20px;
         font-size: 14px;
-        /*line-height: 1.6;*/
     }
 
     h1.tagline{
@@ -139,7 +135,6 @@ img.img-responsive.center-block{
     img.img-responsive.center-block{
     max-width: 25%;
     text-align: center;
-    /*position: absolute;*/
     bottom: 0px;
     }
 
@@ -171,7 +166,6 @@ img.img-responsive.center-block{
 }
 
 a {
-    /*color: #28c3ab;*/
     color:#111;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -181,8 +175,6 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    /*color: #212121;*/
-    /*background-color: rgb(255,238,0);*/
 }
 
 /*INTROLINK styles*/
@@ -206,12 +198,9 @@ a:focus {
 
 .navbar {
     margin-bottom: 0;
-    /*border-bottom: 1px solid rgba(255,255,255,.3);*/
     text-transform: uppercase;
     font-family: "412",Roboto Condensed,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgb(0,0,0,0);
-    /*letter-spacing: 5px;*/
-    /*visibility: hidden;*/
 }
 
 @media(max-width:767px) {
@@ -221,7 +210,6 @@ a:focus {
 }
 
 .navbar-brand {
-    /*font-weight: 500;*/
     letter-spacing: 5px;
     margin: 0 0px;
 }
@@ -247,9 +235,6 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    /*NAVBAR HOVER COLOR*/
-    /*background-color: #fff;
-    color: #111;*/
     color: #fff;
     background-color: #111;
 }
@@ -269,7 +254,6 @@ a:focus {
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
-        /*letter-spacing: 1px;*/
         background: 0 0;
         -webkit-transition: background .25s ease-in-out,padding .25s ease-out;
         -moz-transition: background .25s ease-in-out,padding .25s ease-out;
@@ -278,8 +262,6 @@ a:focus {
     .navbar-brand:hover,
     .navbar-brand:focus {
         outline: 0;
-        /*color: #111;
-        background-color: #fff;*/
         color: #fff;
         background-color: #111;
     }
@@ -312,9 +294,6 @@ a:focus {
     width: 100%;
     height: 100%;
     padding: 5% 0;
-    /*text-align: center;*/
-    /*background: url(../img/iphonemock.png) no-repeat bottom center scroll;*/
-    /*background-color: #212121;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -359,31 +338,6 @@ a:focus {
     text-transform: uppercase;
 }
 
-.numbering{
-    font-size: 10px;
-    font-family: "13r","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #212121;
-    text-align: left;
-    margin-bottom: 0px;
-}
-
-.quote-text{
-    font-size:40px;
-    font-family: "13r", "127", "Helvetica Neue",Roboto Condensed,Helvetica,Arial,sans-serif;
-    color: #212121;
-    letter-spacing: -1px;
-    line-height: 80%;
-    text-align: center;
-}
-
-.gotham-text{
-    font-size:10px;
-    text-transform: uppercase;
-    font-family: "7l","Helvetica Neue",Helvetica,Arial,sans-serif;
-    letter-spacing: 6px;
-    color: #212121;
-}
-
 .attribution{
     font-size:8px;
     text-align: center;
@@ -402,7 +356,6 @@ a:focus{
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        /*padding: 0;*/
     }
 
     .brand-heading {
@@ -444,13 +397,11 @@ a:focus{
     width: 50px;
     height: 50px;
     margin-top: 15px;
-    /*border: 2px solid #fff;*/
     opacity: 0.3;
     background-color: #212121;
     border-radius: 25px;
     font-size: 20px;
     color: #fff;
-    /*background: 0 0;*/
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -460,7 +411,6 @@ a:focus{
 .btn-circle:focus {
     outline: 0;
     color: #fff;
-    /*background: rgba(255,255,255,.1);*/
     background: rgb(255,238,0);
     opacity: 1;
 }
@@ -487,42 +437,7 @@ a:focus{
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {
-    0 {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
 .content-section {
-    /*padding-top: 100px;*/
     padding-top: 250px;
     height:100%;
 }
@@ -531,83 +446,12 @@ a:focus{
     width: 100%;
     height: 100%;
     padding: 100px 0;
-    /*text-align: center;*/
     color: #fff;
-    /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
     background-color: #ffeb03;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-.project-section {
-    width: 100%;
-    padding: 100px 0;
-    color:#212121;
-    /*argin-top: 0px;*/
-    /*color: #212121;*/
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.project1 {
-    width: 100%;
-    padding: 100px 0;
-    color:#212121;
-    background: url(../img/project1.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.project2 {
-    width: 100%;
-    padding: 200px 0;
-    color:#212121;
-    background: url(../img/project2.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.project3 {
-    width: 100%;
-    padding: 200px 0;
-    color:#212121;
-    background: url(../img/project3.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.project4 {
-    width: 100%;
-    padding: 200px 0;
-    color:#212121;
-    background: url(../img/project4.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.project-section span{
-    /*border-top: 2px solid rgb(255,238,0);*/
-    /*border-bottom: 1px solid rgb(255,238,0);*/
-    color: #212121;
-    background-color: rgba(255,238,0,0.7);
-    line-height: 1.8;
 }
 
 .half {
@@ -617,7 +461,6 @@ a:focus{
 #map {
     width: 100%;
     height: 200px;
-    /*margin-top: 100px;*/
 }
 
 @media(min-width:767px) {
@@ -631,7 +474,6 @@ a:focus{
 
     #map {
         height: 400px;
-        /*margin-top: 250px;*/
     }
 }
 
@@ -677,55 +519,6 @@ a:focus{
 @font-face{
     font-family:'412';
     src:url('../fonts/412.ttf') format("truetype");
-    font-weight:normal;
-    font-style:normal
-    }
-
-@font-face{
-    font-family:'13r';
-    src:url('../fonts/13r.ttf') format("truetype");
-    font-weight:normal;
-    font-style:normal
-    }
-
-@font-face{
-    font-family:'3m';
-    src:url('../fonts/3m.otf') format("opentype");
-    font-weight:normal;
-    font-style:normal
-    }
-
-@font-face{
-    font-family:'3l';
-    src:url('../fonts/3l.otf') format("opentype");
-    font-weight:lighter;
-    font-style:normal
-    }
-
-@font-face{
-    font-family:'7l';
-    src:url('../fonts/7l.ttf') format("truetype");
-    font-weight:normal;
-    font-style:normal
-    }
-
-@font-face{
-    font-family:'1614l';
-    src:url('../fonts/1614l.ttf') format("truetype");
-    font-weight:normal;
-    font-style:normal
-    }
-
-@font-face{
-    font-family:'814';
-    src:url('../fonts/814.ttc') format("truetype");
-    font-weight:normal;
-    font-style:normal
-    }
-
-@font-face{
-    font-family:'127';
-    src:url('../fonts/127.otf') format("opentype");
     font-weight:normal;
     font-style:normal
     }
@@ -782,6 +575,5 @@ body {
         display:none;
     }
 }
-
 
 /*STARTED FROM THE BOTTOM NOW WE HERE. If you started from the top like a normal person, that's okay too :)*/
